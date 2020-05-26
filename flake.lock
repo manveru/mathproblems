@@ -1,0 +1,85 @@
+{
+  "nodes": {
+    "nix-whitelist": {
+      "info": {
+        "lastModified": 1590027752,
+        "narHash": "sha256-+mr8ZXpX/MyrL9OtDuBIUGl9adhpQuD4LsMiRbHjbTo="
+      },
+      "inputs": {
+        "stdlib": "stdlib"
+      },
+      "locked": {
+        "owner": "manveru",
+        "repo": "nix-whitelist",
+        "rev": "ece3e65dc848b2f648fb9e3d55538279c3600978",
+        "type": "github"
+      },
+      "original": {
+        "owner": "manveru",
+        "repo": "nix-whitelist",
+        "type": "github"
+      }
+    },
+    "nixpkgs": {
+      "info": {
+        "lastModified": 1589963758,
+        "narHash": "sha256-RCThQ/mPI66gOrN6nRK1ar0RDY5dJAYyvpxcDCEmyEU="
+      },
+      "locked": {
+        "owner": "NixOS",
+        "repo": "nixpkgs-channels",
+        "rev": "a0d7927a8c723646f0ddb37164c026adeef975e0",
+        "type": "github"
+      },
+      "original": {
+        "owner": "NixOS",
+        "ref": "nixpkgs-unstable",
+        "repo": "nixpkgs-channels",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "nix-whitelist": "nix-whitelist",
+        "nixpkgs": "nixpkgs",
+        "utils": "utils"
+      }
+    },
+    "stdlib": {
+      "info": {
+        "lastModified": 1590026685,
+        "narHash": "sha256-E5INrVvYX/P/UpcoUFDAsuHem+lsqT+/teBs9O7oc9Q="
+      },
+      "locked": {
+        "owner": "manveru",
+        "repo": "nix-lib",
+        "rev": "99088cf7febcdb21afd375a335dcafa959bef3ed",
+        "type": "github"
+      },
+      "original": {
+        "owner": "manveru",
+        "repo": "nix-lib",
+        "type": "github"
+      }
+    },
+    "utils": {
+      "info": {
+        "lastModified": 1588452686,
+        "narHash": "sha256-IVzQPDjRt4hCJpSl9i14AUP/fG/Y+7UAr+HrGFSs864="
+      },
+      "locked": {
+        "owner": "numtide",
+        "repo": "flake-utils",
+        "rev": "18a33a4d4410bf4386572b4ef7296b5786ec2fa9",
+        "type": "github"
+      },
+      "original": {
+        "owner": "numtide",
+        "repo": "flake-utils",
+        "type": "github"
+      }
+    }
+  },
+  "root": "root",
+  "version": 5
+}
